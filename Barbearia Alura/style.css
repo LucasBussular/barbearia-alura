@@ -4,15 +4,27 @@ header {
 }
 
 .caixa {
-	position: relative;
-	width: 940px;
+	width: 100%;
 	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.cabecalho {
+	width: 90%;
+	max-width: 940px;
+	display: flex;
+	justify-content: space-between;
 }
 
 nav {
-	position: absolute;
+	display: flex;
+	justify-content: flex-end;
 	top: 110px;
 	right: 0;
+	box-sizing: border-box;
+	align-items: center;
 }
 
 nav li {
@@ -91,7 +103,8 @@ footer {
 }
 
 main {
-	width: 940px;
+	width: 100%;
+	max-width: 1024px;
 	margin: 0 auto;
 }
 
